@@ -29,3 +29,15 @@ Here are a few tips:
 **Description**: The `!!` command gets the last command. For example, when you forget to add sudo in front of the command` apt-get install <name>` running `sudo !!` lets you update without having to type the whole command again.
 
 ----
+
+**Tip**: `last`
+
+**Description**: The “last” command show the history of last logged in users. This command searches through the file “/var/log/wtmp” and shows a list of logged-in and logged-out users along with tty’s.(tty is one of those funky Unix commands that prints the name of the terminal connected to standard input.)
+
+----
+
+**Tip**: `curl ifconfig.me`
+
+**Description**:  This command outputs your external IP address right into your terminal.
+
+----
